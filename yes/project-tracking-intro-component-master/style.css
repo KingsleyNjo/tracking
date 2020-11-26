@@ -1,0 +1,124 @@
+html{
+    box-sizing:border-box;
+  }
+
+  *,*:before,*:after{
+    box-sizing:inherit;
+  }
+
+  body{
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color:hsl(207, 33%, 95%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size:18px;
+
+  }
+  header{
+    padding:24px 0 0 0;
+  }
+  
+  .row{
+    width: 95%;
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .nav-list{
+    text-align: center;
+    list-style:none;
+    text-transform:uppercase;
+    text-decoration:none;
+    display:flex;
+    flex-direction:row;
+  
+  }
+  
+  .nav-link{
+    color: hsl(230, 29%, 20%);
+    padding:40px;
+    text-decoration:none;
+    font-size:12px;
+    font-weight: 700;
+  }
+  .nav-item{
+    margin:-15px;
+  }
+
+  .nav-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .login-link{
+    color: hsl(231, 7%, 65%);
+  }
+
+  .different{
+    width: 2px;
+    height: 2px;
+    margin:9px;
+    background-color:hsl(240, 17%, 89%);
+  }
+  .image-article{
+    position:relative;
+  }
+  .image-article img{
+    position:absolute;
+    right:-340px;
+    top:-140px;
+
+  }
+
+  .article{
+    position:relative;
+    padding-top:90px;
+  }
+  .design{
+    background-color:hsl(230, 29%, 20%);
+    border-radius:10px;
+    color:white;
+    font-size:15px;
+    color:hsl(231, 7%, 65%);
+  }
+  .article span{
+    color:hsl(231, 7%, 65%);
+    font-size:12px;
+    text-transform:uppercase;
+    margin:10px;
+    letter-spacing:1px;
+  }
+  h2{
+    text-transform:uppercase;
+    width:450px;
+    font-weight: 700;
+    font-size:40px;
+  }
+  p{
+    color:hsl(231, 7%, 65%);
+    width:280px;
+    height:70px;
+  }
+
+  button{
+    background-color:hsl(0, 100%, 68%);
+    width:155px;
+    height:30px;
+    text-transform:uppercase;
+    color:white;
+    font-size:12px;
+    border: 1px solid hsl(0, 100%, 68%);
+    font-family: 'Barlow Condensed',monospace;
+    border-radius:4px;
+  }
+  button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
